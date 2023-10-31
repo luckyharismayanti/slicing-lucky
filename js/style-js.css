@@ -1,0 +1,36 @@
+.warna {
+        border-collapse: collapse;
+    }
+    table, th, td {
+        border: 1px solid rgb(0, 255, 106);
+    }
+    th, td {
+        padding: 10px;
+    }
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+input[type="text"],
+input[type="date"],
+select, 
+textarea {
+    width: 380px;    
+    padding: 10px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-sizing: border-box;
+    }
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: blue;
+    color: beige;
+  border-color: beige;
+}
+
+.flex {
+    flex-direction: column px;
+}

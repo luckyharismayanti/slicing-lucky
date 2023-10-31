@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'montserrat', sans-serif
+}
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+header, #jumbotron {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+#jumbotron h1 {
+    color: #4B8B90;
+font-weight: 700;
+font-size: 65px;
+line-height: 75px;
+}
+
+#jumbotron p {
+margin-top: -35px;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+}
+   
+#jumbotron button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 28px;
+gap: 10px;
+background: #5E6263;
+border-radius: 100px;
+color: #FFFFFF;
+border-width: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 16px;
+    color: #5E6263;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    }
+    
+    th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    }
+    
+    

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style-js.css">
+
+    </LInk>
+    <title>Java Script</title>
+</head>
+
+<body>
+    <h1>Welcom</h1>
+    <h2>Welcom</h2>
+    <h3>Welcom</h3>
+    <h4>Welcom</h4>
+    <h5>Welcom</h5>
+    <h5>Welcom</h5>
+    <h6>Welcom</h6>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum autem, velit mollitia debitis repellat aspernatur
+        praesentium veritatis doloremque molestias quas quia, facilis optio vero maiores obcaecati, itaque eveniet
+        nostrum suscipit!</p>
+    <b>Hello</b>
+    <i>Hello</i>
+    <u>Hello</u>
+    <s>Hello</s>
+    <q>Hello</q>
+
+    <h1>Hobby</h1>
+    <ul>
+        <li>hello</li>
+        <li>berenang</li>
+        <li>belajar</li>
+
+    </ul>
+    <h1>Menu</h1>
+
+    <ol>
+        <li>ayam goreng</li>
+        <li>bakso</li>
+        <li>nasi merah</li>
+
+        <img src="Favicon.jpg" alt="nama file favicon.jpg" height="50px">
+
+
+        <table border="1" class="warna">
+            <tr>
+                <th>No</th>
+                <th>Full Name</th>
+                <th>position</th>
+                <th>Salary</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Founder Microsoft</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Stave Jobs</td>
+                <td>Founder Aplle</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry Page</td>
+                <td>Founder Google</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark Zukeberg</td>
+                <td>Founder Meta</td>
+                <td>$2100</td>
+            </tr>
+            <tr>
+                <tfoot aria-colspan="3"></tfoot>
+                <td colspan="3">Total</td>
+                <td>5400</td>
+            </tr>
+        </table>
+
+        <h2>FORM SISWA</h2>
+        <form class="form siswa" action="">
+            <di<p>Nama Depan: <small style="color: red;">*</small></p>
+                <input type="text">
+
+                <p>Jenis Kelamin: <small style="color: red;">*</small></p>
+                <input type="radio" name="jk" id="laki">
+                <label for="laki" laki-laki>Laki-laki </label>
+                <input type="radio" name="jk" id="pr">
+                <label for="pr">Perempuan</label>
+
+                <P>Tanggal Lahir: <small style="color: red;">*</small></P>
+                <input type="date">
+
+                <p> Kelas <small style="color: red;">*</small></p>
+                <select name="kelas">
+                    <option value="">Pilih Kelas Anda</option>
+                    <option value="">X IPA</option>
+                    <option value="">XI IPA</option>
+                    <option value="">XII IPA</option>
+                </select>
+
+                <p>Hobby </p>
+                <input type="checkbox" name="renang" id="renang">
+                <label for="renang">Renang</label>
+
+                <input type="checkbox" name="belajar" id="belajar">
+                <label for="belajar">Belajar</label>
+
+                <input type="checkbox" name="senam" id="senam">
+                <label for="senam">Senanm</label>
+
+                <input type="checkbox" name="marathon" id="marathon">
+                <label for="marathon">Marathon</label>
+                <p>Catatan</p>
+                <textarea name="catatan" cols="50" rows="10"></textarea>
+        </form>
+        <button>Simpan</button>
+
+
+        <h2 id="ba">Billing Address</h2>
+        <button type="button" onclick="kurang()">-</button>
+        <button type="button" onclick="tambah()">+</button>
+        <p id="angka">5</p>
+
+
+
+        <div class="flex">
+            <div class="">
+                <p><label for="">First Name</label></p>
+                <input type="text" class="input" name="first name" id="fn">
+            </div>
+
+            <div class="">
+                <p><label for="">Last name</label></p>
+                <input type="text" class="input" name="Last name" id="fn">
+            </div>
+        </div>
+        <div id="fsname" class="name flex">
+            <div>
+                <label for="fname">First Name <span>*</span></label><br>
+                <input type="text" name="firstname" id="fname">
+            </div>
+            <div>
+                <label for="lname">Last Name <span>*</span></label><br>
+                <input type="text" name="lastname" id="lname">
+            </div>
+        </div>
+
+        <div id="username">
+            <label for="usrname">Username</label><br>
+            <i id="icon" class="fa fa-at"></i>
+            <input type="text" name="username" id="usrname" placeholder="Username">
+        </div>
+
+        <div id="email">
+            <label for="email">Email</label><br>
+            <input type="text" name="emailtext" id="email" placeholder="you@example.com">
+        </div>
+        <div id="address1">
+            <label for="addres1">Address</label><br>
+            <input type="text" name="add1" id="addres1" placeholder="1234 Main St">
+        </div>
+        <div id="address2">
+            <label for="addres2">Address 2 <span>(Optional)</span></label><br>
+            <input type="text" name="add1" id="addres1" placeholder="Apartment or suite">
+        </div>
+        <div class="flex">
+            <div id="country">
+                <label for="">Country</label><br>
+                <select name="" id="country">
+                    <option value="">Chose....</option>
+                    <option value="">Indonesia</option>
+                </select>
+            </div>
+            <div id="state">
+                <label for="">State</label><br>
+                <select name="" id="state">
+                    <option value="">Chose....</option>
+                    <option value="">Yogyakarta</option>
+                </select>
+            </div>
+            <div id="zip">
+                <label for="">ZIP</label><br>
+                <input type="text" id="zip">
+            </div>
+        </div>
+        <hr>
+        <div>
+            <input type="checkbox" name="" id="choice1"><label for="choice1"> Shipping address is the same as my billing address</label><br>
+            <input type="checkbox" name="" id="choice2"><label for="choice2"> Save this information for next time</label>
+        </div>
+        <hr>
+        <h2 class="font2">Payment</h2>
+        <div>
+            <label onclick="show()"><input type="radio" name="cp" id="paychoice1"> Credit Card</label><br>
+            <label onclick="show()"><input type="radio" name="cp" id="paychoice2"> Debit Card</label><br>
+            <label onclick="show()"><input type="radio" name="cp" id="paychoice3"> PayPal</label><br>
+            <label onclick="hide()"><input type="radio" name="cp" id="paychoice4"> Cash</label>
+        </div><br>
+    
+        <div id="payment">
+            <div class="name flex">
+                <div>
+                    <label for="namecard">Name on card</label><br>
+                <input type="text" name="namec" id="namecard">
+                </div>
+                <div>
+                    <label for="numbercard">Credit card number</label><br>
+                    <input type="text" name="numberc" id="numbercard">
+                </div>
+            </div>
+            <label for="">Full name as displayed on card</label><br><br>
+   
+            <div class="flex">
+                <div>
+                    <label for="expiration">Expiration</label><br>
+                    <input type="text" name="" id="expiration">
+                </div>
+                <div>
+                    <label for="cvv">CVV</label><br>
+                    <input type="text" name="" id="cvv">
+                </div>
+            </div>
+        </div>
+        
+        <hr>
+        <button type="submit" class="font1">Continue to checkout</button>
+    </form>
+</div>
+
+<div class="column2">
+    <form action="" class="font1">
+        <div class="flex">
+            <h3>Your cart</h3>
+            <span id="cart">3</span>
+        </div>
+
+        <div>
+            <div class="list">
+                <label class="caption" for="">Product name<span class="price">$12</span></label><br>
+                <label class="font3" for="">Brief description</label>
+            </div>
+            <div class="list marginlist specialborder">
+                <label id="secondp" class="caption" for="">Second product<span  class="price">$8</span></label><br>
+                <label class="font3" for="">Brief description</label>
+            </div>
+            <div class="list marginlist specialborder">
+                <label id="thirdi" class="caption" for="">Third item<span class="price">$5</span></label><br>
+                <label class="font3" for="">Brief description</label>
+            </div>
+            <div class="list marginlist promocodelist specialborder">
+                <label id="promocode" class="caption" for="">Promo code<span class="price">-$5</span></label><br>
+                <label class="font3" for="">EXAMPLECODE</label>
+            </div>
+            <div class="list marginlist">
+                <label id="total" class="caption" for="">Total (USD)<span class="price">-$5</span></label><br>
+            </div><br>
+            <div class="list marginlist specialborder">
+                <!-- <input id="inputcoderedeem" type="text"> -->
+                <input id="inputcoderedeem" type="text">
+                <input id="buttonredeem" type="button" value="Redeem">
+                <!-- <button id="buttonredeem"></button> -->
+            </div>
+        </div>       
+    </form>
+</div>
+
+        <body>
+
+            <script src="html.js"></script>
+
+        </body>
+
+</html>
